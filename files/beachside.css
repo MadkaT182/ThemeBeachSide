@@ -1,0 +1,210 @@
+/*Pallete colors*/
+/*Color 1: #FEFFFF
+Color 2: #3C3F36
+Color 3: #9FB03E
+Color 4: #EBE9DC
+Color 5: #72918B*/
+
+/*NavBar*/
+
+/*Breadcrumbs*/
+.skin-3 .main-container::before {
+	background: none repeat scroll 0 0 #72918B !important;
+}
+
+.skin-3 .breadcrumbs {
+	border-width: 0;
+	background-color: #EBE9DC;
+	border-radius: 4px;
+	margin: 8px 8px 0;
+}
+
+.breadcrumb > li, .breadcrumb > li.active {
+	color: #3C3F36;
+}
+
+.breadcrumb > li > a {
+	color: #9FB03E;
+}
+
+.nav-search .nav-search-input {
+	border: 1px solid #3C3F36;
+	color: #3C3F36 !important;
+}
+
+.nav-search .nav-search-icon {
+	color: #9FB03E !important;
+	font-size: 14px !important;
+	line-height: 24px !important;
+	background-color: transparent;
+}
+
+/*Contents*/
+.skin-3 .page-content {
+	background-color: #72918B;
+}
+
+/*SideBar*/
+
+
+.skin-3 .sidebar-toggle {
+	background-color: #3C3F36;
+	border-color: #3C3F36;
+}
+
+.skin-3 .sidebar-toggle > .ace-icon {
+	background-color: #3C3F36;
+	border-color: #FEFFFF;
+	color: #FEFFFF;
+}
+
+.skin-3 .nav-list > li > a {
+	background-color: #EBE9DC;
+	color: #3C3F36;
+}
+
+.skin-3 .nav-list>li>a:focus {
+    background-color: #FEFFFF;
+    color: #9FB03E;
+}
+
+.skin-3 .nav-list>li.open:before, .skin-3 .nav-list>li:hover:before {
+    display: block;
+    background-color: #72918B!important;
+}
+.skin-3 .nav-list>li.active:before {
+    display: block;
+    background-color: #72918B!important;
+}
+
+.skin-3 .nav-list > li > a:hover {
+	background-color: #FEFFFF !important;
+	color: #9FB03E !important;
+}
+
+.skin-3 .nav-list > li.active.highlight > a, .skin-3 .nav-list > li.active > a {
+	background-color: #FEFFFF !important;
+	color: #9FB03E !important;
+}
+
+.skin-3 .nav-list > li.active, .skin-3 .nav-list > li.active + li {
+	border-color: #9FB03E !important;
+}
+
+.skin-3 .nav-list > li.active::before {
+	display: block;
+	background-color: #9FB03E !important;
+}
+
+.skin-3 .nav-list li.active > a::before {
+	display: block;
+	content: "";
+	position: absolute;
+	border-color: transparent #9FB03E transparent transparent;
+	right: 0;
+	border-width: 12px 8px;
+	top: 7px;
+}
+
+/*Controls - Objects*/
+.btn-primary, .btn-primary.focus, .btn-primary:focus {
+	background-color: #9FB03E !important;
+	border-color: #9FB03E;
+}
+
+.btn-primary:hover {
+	background-color: #72918B !important;
+	border-color: #72918B;
+}
+
+.btn-white.btn-primary {
+	border-color: #9FB03E;
+	color: #9FB03E !important;
+}
+
+.btn-white.btn-primary:hover {
+	border-color: #9FB03E;
+	color: #9FB03E !important;
+}
+
+a, a:hover {
+	color: #9FB03E;
+	text-decoration: none;
+}
+
+.label.arrowed-in::before, .label.arrowed::before {
+	display: inline-block;
+	content: "";
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	border-right-color: #9FB03E;
+}
+
+.badge, .label {
+	font-weight: 400;
+	background-color: #9FB03E;
+	text-shadow: none;
+}
+
+body {
+	font-family: 'Open Sans';
+	font-size: 13px;
+	color: #3C3F36;
+	line-height: 1.5;
+}
+
+.widget-color-blue2 > .widget-header {
+	background: #3C3F36;
+	border-color: #3C3F36;
+}
+
+.widget-color-blue2 {
+	border-color: #9FB03E;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+	background-color: #EBE9DC;
+}
+
+.widget-toolbox {
+	background-color: #EBE9DC;
+}
+
+.widget-body {
+	background-color: #EBE9DC;
+}
+
+.blue {
+	color: #9FB03E !important;
+}
+
+input[type="checkbox"].ace:checked + .lbl::before, input[type="radio"].ace:checked + .lbl::before {
+	display: inline-block;
+	content: '\f00c';
+	color: #9FB03E;
+	background-color: #EBE9DC;
+	border-color: #9FB03E;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05),inset 0 -15px 10px -12px rgba(0,0,0,.05),inset 15px 10px -12px rgba(255,255,255,.1);
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	color: #576373;
+	border-color: #C5D0DC #C5D0DC transparent;
+	border-top: 2px solid #C5D0DC;
+	background-color: #FFF;
+	z-index: 1;
+	line-height: 18px;
+	margin-top: -1px;
+	box-shadow: 0 -2px 3px 0 rgba(0,0,0,.15);
+}
+
+/*Login*/
+.light-login {
+	background: none repeat scroll 0 0 #3C3F36 !important;
+}
+
+.login-layout .widget-box .widget-main {
+	padding: 16px 36px 36px;
+	background: #EBE9DC;
+}
